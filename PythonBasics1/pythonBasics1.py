@@ -8,9 +8,20 @@
 # Define a function starts_with(s, char) that takes a string and a character
 # and returns true if the string starts with that character and false otherwise. 
 def starts_with(s, char):
-  # YOUR CODE HERE
-  
-  return
+    # YOUR CODE HERE
+    #check to see if either parameter is empty
+    if len(s) > 0 and char != '':
+        if s[0] == char:
+            return True
+        else:
+            return False
+    #if only one is empty return false
+    elif (len(s) == 0 and char != '') or (len(s) != 0 and char == ''):
+        return False
+    #if they are both empty return true
+    else:
+        return True
+
 
 # Part B. starts_with_vowel
 # Define a function starts_with_vowel(s) that takes a string and
@@ -18,9 +29,10 @@ def starts_with(s, char):
 # For our purposes, a consonant is any letter other than A, E, I, O, U)
 # Your solution should work for both upper and lower cases 
 def starts_with_vowel(s):
-  # YOUR CODE HERE
-  
-  return
+    # YOUR CODE HERE
+
+    return
+
 
 # Part C. max_min_sum
 # Define a function max_min_sum(arr) that takes an array and returns the sum
@@ -28,6 +40,6 @@ def starts_with_vowel(s):
 # For an empty array it should return zero
 # For an array with just one element, it should return that element
 def max_min_sum(arr):
-  # YOUR CODE HERE
-  
-  return
+    # YOUR CODE HERE
+
+    return
