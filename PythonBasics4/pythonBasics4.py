@@ -7,8 +7,12 @@
 # # Part A.
 def array_2_dict(emails, contacts):
     # YOUR CODE HERE
-
-    return
+    if len(emails) > 0:
+        i = 0
+        for x in contacts:
+            contacts[x] = emails[i]
+            i += 1
+    return contacts
 
 # # Part B.
 def array2d_2_dict(contact_info, contacts):
