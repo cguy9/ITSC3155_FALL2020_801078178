@@ -17,12 +17,18 @@ def array_2_dict(emails, contacts):
 # # Part B.
 def array2d_2_dict(contact_info, contacts):
     # YOUR CODE HERE
-
-    return
+    if len(contact_info) and len(contact_info[0]) > 0:
+        i = 0
+        for x in contacts:
+            contacts[x] = {"email":contact_info[i][0], "phone": contact_info[i][1]}
+            i+=1
+    return contacts
 
 # # Part C.
 def dict_2_array(contacts):
     # YOUR CODE HERE
+    #contactsList [[],[],[]]
 
-    return
+
+    return contactsList
 
