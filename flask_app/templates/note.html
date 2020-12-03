@@ -28,7 +28,7 @@
     </tr>
     <tr>
         <td>{{ note.title }}</td>
-        <td>{{ note.text }}</td>
+        <td>{{ note.text|safe }}</td>
         <td>{{ note.date }}</td>
     </tr>
 </table>
