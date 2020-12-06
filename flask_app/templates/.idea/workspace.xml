@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aae23e80-dd43-4114-b26f-cca9ca656969" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../forms.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/comment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_note_app.db" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_note_app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/notes.html" afterDir="false" />
     </list>
@@ -34,7 +36,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -62,10 +64,17 @@
       <workItem from="1606748034663" duration="2786000" />
       <workItem from="1607003224667" duration="59000" />
       <workItem from="1607009604750" duration="6062000" />
+      <workItem from="1607117168689" duration="624000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="238" key="FileChooserDialogImpl" timestamp="1607119337208">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="533" y="238" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1607119337208" />
   </component>
 </project>
