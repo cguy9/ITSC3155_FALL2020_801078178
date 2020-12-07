@@ -38,11 +38,6 @@
                 <input type="submit" value="Delete">
             </form>
         </td>
-        <td>
-            <form action="{{ url_for('comment', note_id=note.id) }}" method="post">
-                <input type="submit" value="Comment">
-            </form>
-        </td>
     </tr>
     {% endfor %}
 </table>
